@@ -24,6 +24,14 @@ Note the `(env)` in front of the prompt. This indicates that this terminal
 session operates in a virtual environment.
 
 Once `pip` has finished downloading the dependencies:
+
+Make sure you get your secret API Key from NewsAPI
+
+Navigate to the `newsapp` directory and open the `views.py` file.
+
+Replace the API_KEY in newsapi = NewsApiClient(api_key=config('API_KEY')) with your key.
+
+Save and Run
 ```sh
 (env)$ python manage.py runserver
 ```
